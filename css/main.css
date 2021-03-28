@@ -16,7 +16,7 @@ h1 {
 }
 
 img {
-  width: 100%;
+  width: 80%;
 }
 
 figure {
@@ -27,10 +27,34 @@ figure {
 figcaption {
   font-family: "Merriweather", serif;
   font-style: italic;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #fff;
+  padding-left: 1rem;
 }
 
 main {
-  background-image: url(../images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg)
+  background-image: url(../images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg);
+  gap: .75rem;
+}
+
+main p {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  color: #fff;
+  padding-left: 1rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: section;
+  align-self: center;
+  grid-template-areas:
+    "div div div"
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 1.8rem;
+  font-style: italic;
 }
