@@ -16,7 +16,11 @@ h1 {
 }
 
 img {
-  width: 80%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
 }
 
 figure {
@@ -67,7 +71,8 @@ h2 {
 }
 
 dl {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 dl dt {
