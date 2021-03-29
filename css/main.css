@@ -8,13 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  font-family: "Merriweather", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 1.8rem;
-}
-
 img {
   width: 100%;
 }
@@ -23,60 +16,10 @@ body {
   margin: 0;
 }
 
-figure {
-  margin: 0;
-  padding: 0;
-}
-
-figcaption {
-  font-family: "Merriweather", serif;
-  font-style: italic;
-  font-size: 1.5rem;
-  color: #fff;
-  padding-left: 1rem;
-}
-
 main {
-  background-image: url(../images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg);
-  gap: .75rem;
-}
-
-main p {
-  font-family: "Merriweather", serif;
-  font-size: 1rem;
-  color: #fff;
-  padding-left: 1rem;
-}
-
-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-area: section;
-  align-self: center;
-  grid-template-areas: "div div div";
-  gap: .75rem;
-}
-
-section img {
-  width: 100%;
-  gap: 0.75rem;
-}
-
-h2 {
-  font-family: "Merriweather", serif;
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: lighter;
-  margin-left: 1.5rem;
-}
-
-dl {
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
-
-dl dt {
-  font-family: "Merriweather", serif;
-  font-size: 1rem;
-  font-style: italic;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "banner banner banner"
+  "col1 col2 col3";
 }
